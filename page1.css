@@ -1,0 +1,14 @@
+#div1{
+    background-color: aqua;
+    font-size: 30px;
+    color: white;
+}
+
+.redDiv{
+    background-color: red;
+    color: white;
+}
+
+#pBlue, #pBlue1{
+    color: blue;
+}
