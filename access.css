@@ -1,0 +1,20 @@
+.container  {
+    background-color: rgb(253, 252, 252);
+    color: #000;
+    padding: 5px;
+    display: grid;
+    border: solid #000;
+    border-radius: 10px;
+}
+
+.Header{
+    color: blue;
+    border-bottom: solid blue;
+}
+
+.checkmark{
+    grid-column: 1/4;
+    border: solid #000;
+    border-radius: 10px;
+}
+

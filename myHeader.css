@@ -1,0 +1,20 @@
+.container  {
+    background-color: rgb(253, 252, 252);
+    color: #000;
+    padding: 5px;
+    display: grid;
+}
+.cell{
+    border: solid blue;
+}
+.link{
+    grid-column: 1/3;
+}
+.mid{
+    grid-column: 3/4;
+}
+.Header{
+    grid-column: 1/4;
+    text-align: center;
+}
+
