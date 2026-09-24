@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electricity Bill Calculator</title>
+    <link rel="stylesheet" href="lab11_F242.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <h3>index.html</h3>
+        
+        <div class="form-group">
+            <label for="location">Location:</label>
+            <select id="location">
+                <option value="">Select Location</option>
+                <option value="Dhaka">Dhaka</option>
+                <option value="Chattogram">Chattogram</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Area:</label>
+            <div class="radio-group">
+                <input type="radio" id="urban" name="area" value="urban">
+                <label for="urban">Urban</label>
+                <input type="radio" id="rural" name="area" value="rural">
+                <label for="rural">Rural</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="units">Unit Consumed:</label>
+            <input type="number" id="units" placeholder="Your Amount">
+        </div>
+
+        <button id="calculate-btn" onclick="calculateBill()">Calculate Bill</button>
+    </div>
+
+    <script src="lab11_F242.js"></script>
+</body>
+</html>

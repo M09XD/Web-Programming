@@ -1,0 +1,7 @@
+body {
+    transition: background-color 0.3s, color 0.3s;
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
