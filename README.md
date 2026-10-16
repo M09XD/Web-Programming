@@ -9,7 +9,7 @@
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-A comprehensive learning repository for CSE 4165 — Web Programming, covering front-end development, backend programming, exam preparation, and worked solutions.
+A comprehensive learning repository for CSE 4165 Web Programming, covering front-end development, backend programming, exam preparation, and worked solutions.
 
 </div>
 
@@ -221,9 +221,9 @@ This repository is built around university web programming coursework and study 
 For questions, suggestions, or collaboration ideas, connect through the repository owner or open an issue on GitHub.
 Contact
 
-- GitHub profile: @M09XD
+- GitHub profile: [@M09XD](https://github.com/M09XD)
 
-- Repository: M09XD/Web-Programming
+- Repository: [M09XD/Web-Programming](https://github.com/M09XD/Web-Programming)
 
 If you find a broken path, incorrect solution, or unclear assumption, open an issue and include the relevant semester, question folder, and expected behavior.
 ---
