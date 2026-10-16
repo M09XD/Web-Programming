@@ -1,0 +1,74 @@
+CSE 4165 WEB PROGRAMMING - ONE-PAGE-STYLE CHEAT SHEET
+
+JAVASCRIPT
+let total = 0, count = 0;  // outside function for state
+function run() {
+    let x = Number(document.getElementById("input").value);
+    total += x;
+    count++;
+    if (total <= 5) { message = "A"; }
+    else if (total <= 12) { message = "B"; }
+    else { message = "C"; }
+    document.getElementById("out").innerText = message;
+}
+
+PHP FORM
+<form method="post">
+    Number: <input type="number" name="x">
+    <button name="btn">Calculate</button>
+</form>
+<?php
+if (isset($_POST["btn"])) {
+    $x = (float)$_POST["x"];
+    echo $x;
+}
+?>
+
+PHP FUNCTION
+function calculate($people, $capacity) {
+    $units = ceil($people / $capacity);
+    $left = $units * $capacity - $people;
+    return $left;
+}
+
+MYSQLI LOOP
+$conn = new mysqli("localhost", "root", "", "dbname");
+if ($conn->connect_error) { die("Connection failed: " . $conn->connect_error); }
+$res = $conn->query("SELECT name AS n FROM table_name");
+while ($row = $res->fetch_assoc()) { echo $row["n"] . "<br>"; }
+$conn->close();
+
+SQL CLAUSE ORDER
+SELECT columns, COUNT(*) AS total
+FROM table_name
+WHERE row_condition
+GROUP BY group_column
+HAVING COUNT(*) > 1
+ORDER BY total DESC
+LIMIT 2;
+
+CAP UPDATE
+UPDATE table_name
+SET score = score + 5
+WHERE score > 80 AND score + 5 <= 90;
+
+FORMULAS
+Needed = number of people * units per person
+Whole units = ceil(needed / capacity)
+Leftover = whole units * capacity - needed
+Waste = leftover * price per unit
+Best two CT average = (ct1 + ct2 + ct3 - min(ct1,ct2,ct3)) / 2
+Average speed for same-distance up/down = total distance / total time
+
+COMMON TRAPS
+- ID in HTML/JS; name in PHP/POST.
+- Cast input before numeric calculations.
+- Put JS totals/counters outside functions.
+- Apply special warning after ordinary feedback.
+- ceil for whole venues/screens/pizzas.
+- WHERE filters rows; HAVING filters groups.
+- Test the updated value when a rule says “only if the result <= cap”.
+- Alias SQL aggregates with AS.
+- Avoid duplicate HTML IDs.
+- Re-import setup.sql after UPDATE tests.
+- Mark contradictions: Spring 2024 digit product vs sample sum; Fall 2025 Excellent threshold prose vs sample; Spring 2025/Summer 2025 fixed cost vs waste sample.
