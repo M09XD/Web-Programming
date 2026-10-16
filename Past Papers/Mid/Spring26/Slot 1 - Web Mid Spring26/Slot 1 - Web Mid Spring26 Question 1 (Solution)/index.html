@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CORE-TECH Admin Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="dashboard-wrapper">
+
+  <!-- ===== Top nav ===== -->
+  <header class="navbar">
+    <div class="brand">CORE-TECH</div>
+    <nav class="nav-links">
+      <a href="#" class="active">OVERVIEW</a>
+      <a href="#">ANALYTICS</a>
+      <a href="#">REPORTS</a>
+      <a href="#">SECURITY</a>
+    </nav>
+    <div class="admin-tag">Admin: System_Root</div>
+  </header>
+
+  <div class="dashboard-body">
+
+    <!-- ===== Stat cards ===== -->
+    <section class="stat-grid">
+
+      <div class="stat-card stat-blue">
+        <p class="stat-label">Total Users</p>
+        <p class="stat-value">12,450</p>
+        <button class="stat-btn">UP +12% MONTHLY</button>
+      </div>
+
+      <div class="stat-card stat-green">
+        <p class="stat-label">Revenue</p>
+        <p class="stat-value">$84,200</p>
+        <button class="stat-btn">UP +5.2% WEEKLY</button>
+      </div>
+
+      <div class="stat-card stat-orange">
+        <p class="stat-label">Active Tasks</p>
+        <p class="stat-value">18</p>
+        <button class="stat-btn">4 TASKS PENDING</button>
+      </div>
+
+      <div class="stat-card stat-purple">
+        <p class="stat-label">System Health</p>
+        <p class="stat-value">99.9%</p>
+        <button class="stat-btn">SYSTEM STABLE</button>
+      </div>
+
+    </section>
+
+    <!-- ===== Bottom panels ===== -->
+    <section class="panel-grid">
+
+      <div class="panel">
+        <h2>System Configuration</h2>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Server Name</label>
+            <input type="text" placeholder="Enter server alias...">
+          </div>
+          <div class="form-group">
+            <label>Deployment Zone</label>
+            <select>
+              <option>North America (East)</option>
+              <option>North America (West)</option>
+              <option>Europe</option>
+              <option>Asia Pacific</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group full">
+          <label>System Description</label>
+          <textarea rows="4"></textarea>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>Access Permissions</h2>
+        <div class="checkbox-row">
+          <label><input type="checkbox" checked> Read</label>
+          <label><input type="checkbox"> Write</label>
+          <label><input type="checkbox"> Delete</label>
+          <label><input type="checkbox" checked> API</label>
+        </div>
+        <div class="btn-row">
+          <button class="btn-update">UPDATE SETTINGS</button>
+          <button class="btn-reset">RESET</button>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+</div>
+
+</body>
+</html>

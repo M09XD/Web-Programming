@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== Top Navigation ===== -->
+  <header class="topbar">
+    <div class="logo">Dashboard</div>
+    <nav class="main-nav">
+      <a href="#" class="active">Home</a>
+      <a href="#">Projects</a>
+      <a href="#">Tasks</a>
+      <a href="#">Reports</a>
+      <a href="#">Settings</a>
+    </nav>
+    <div class="account">
+      <div class="account-info">
+        <p class="account-name">John Smith</p>
+        <p class="account-role">Admin</p>
+      </div>
+      <div class="avatar">JS</div>
+    </div>
+  </header>
+
+  <!-- ===== Main content ===== -->
+  <main class="content">
+    <h1 class="greeting">Hi John</h1>
+    <p class="welcome">Welcome to your dashboard!</p>
+
+    <!-- ===== Top row: profile + stats ===== -->
+    <section class="top-row">
+
+      <div class="profile-card">
+        <div class="profile-head">
+          <div class="avatar avatar-lg">JS</div>
+          <div>
+            <p class="profile-name">John Smith</p>
+            <p class="profile-role">Web &amp; Graphic designer</p>
+          </div>
+        </div>
+
+        <div class="stat-block">
+          <p class="stat-label">PROJECT COMPLETION</p>
+          <div class="progress-track"><div class="progress-fill fill-completion" style="width:80%;"></div></div>
+          <p class="stat-note">80%</p>
+        </div>
+
+        <div class="stat-block">
+          <p class="stat-label">OVERALL RATING</p>
+          <div class="progress-track"><div class="progress-fill fill-rating" style="width:70%;"></div></div>
+          <p class="stat-note">7/10</p>
+        </div>
+      </div>
+
+      <div class="mini-card">
+        <p class="mini-label">Tasks Completed</p>
+        <p class="mini-value">17</p>
+      </div>
+
+      <div class="mini-card">
+        <p class="mini-label">Tasks In Progress</p>
+        <p class="mini-value">24</p>
+      </div>
+
+      <div class="mini-card">
+        <p class="mini-label">Revenue</p>
+        <p class="mini-value">30,000/-</p>
+        <p class="mini-note">Last Week</p>
+      </div>
+
+    </section>
+
+    <!-- ===== Recent Projects ===== -->
+    <section class="projects-section">
+      <h2 class="section-title">Recent Projects</h2>
+
+      <div class="project-grid">
+
+        <div class="project-card">
+          <h3>UIU Canteen</h3>
+          <span class="tag tag-design">Design</span>
+          <p class="project-desc">Update the website logo...</p>
+          <div class="progress-track"><div class="progress-fill fill-completion" style="width:90%;"></div></div>
+          <p class="progress-pct">90%</p>
+        </div>
+
+        <div class="project-card">
+          <h3>Valorant Knockoff</h3>
+          <span class="tag tag-plan">Plan</span>
+          <p class="project-desc">Plan better ranking system...</p>
+          <div class="progress-track"><div class="progress-fill fill-plan" style="width:50%;"></div></div>
+          <p class="progress-pct">50%</p>
+        </div>
+
+        <div class="project-card">
+          <h3>Prompt Engineering</h3>
+          <span class="tag tag-dev">Development</span>
+          <p class="project-desc">Communicate with the team...</p>
+          <div class="progress-track"><div class="progress-fill fill-dev" style="width:60%;"></div></div>
+          <p class="progress-pct">60%</p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>

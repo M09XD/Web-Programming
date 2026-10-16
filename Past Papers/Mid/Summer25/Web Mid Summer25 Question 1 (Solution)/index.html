@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UIU Learning Hub - Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- ===== Sidebar ===== -->
+  <aside class="sidebar">
+    <div class="brand">UIU LEARNING HUB</div>
+    <nav class="side-nav">
+      <a href="#" class="active">Dashboard</a>
+      <a href="#">My Courses</a>
+      <a href="#">Assignments</a>
+      <a href="#">Exams</a>
+      <a href="#">Resources</a>
+      <a href="#">Grades &amp; Results</a>
+      <a href="#">Calendar</a>
+      <a href="#">Discussion Forum</a>
+      <a href="#">Settings</a>
+    </nav>
+  </aside>
+
+  <!-- ===== Main content ===== -->
+  <main class="main">
+    <div class="top-row">
+      <h1>Welcome to Your Learning Dashboard</h1>
+      <input type="text" class="search-box" placeholder="Search courses, resources...">
+    </div>
+
+    <!-- Course cards -->
+    <section class="course-grid">
+
+      <div class="course-card grad-1">
+        <h2>CSE 4165: Web Programming</h2>
+        <p class="prof">Prof. Rahman</p>
+        <div class="progress-track"><div class="progress-fill fill-1" style="width:75%;"></div></div>
+        <div class="card-footer">
+          <span>Progress: 75%</span>
+          <span>Grade: A</span>
+        </div>
+      </div>
+
+      <div class="course-card grad-2">
+        <h2>CSE 3115: Database Systems</h2>
+        <p class="prof">Dr. Karim</p>
+        <div class="progress-track"><div class="progress-fill fill-2" style="width:45%;"></div></div>
+        <div class="card-footer">
+          <span>Progress: 45%</span>
+          <span>Grade: B+</span>
+        </div>
+      </div>
+
+      <div class="course-card grad-3">
+        <h2>CSE 3412: Algorithms</h2>
+        <p class="prof">Prof. Ahmed</p>
+        <div class="progress-track"><div class="progress-fill fill-3" style="width:90%;"></div></div>
+        <div class="card-footer">
+          <span>Progress: 90%</span>
+          <span>Grade: A+</span>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Upcoming classes -->
+    <section class="upcoming-panel">
+      <h2>Upcoming Classes &amp; Deadlines</h2>
+      <div class="upcoming-grid">
+
+        <div class="upcoming-tile tile-1">
+          <p class="time">Today, 11:00 AM - 12:30 PM</p>
+          <p class="title">Web Programming</p>
+          <span class="badge">Lecture</span>
+        </div>
+
+        <div class="upcoming-tile tile-2">
+          <p class="time">Tomorrow, 9:30 AM</p>
+          <p class="title">Database Quiz</p>
+          <span class="badge">Assessment</span>
+        </div>
+
+        <div class="upcoming-tile tile-3">
+          <p class="time">Apr 6, 2:00 PM - 4:00 PM</p>
+          <p class="title">Algorithms Lab</p>
+          <span class="badge">Practical</span>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+</div>
+
+</body>
+</html>

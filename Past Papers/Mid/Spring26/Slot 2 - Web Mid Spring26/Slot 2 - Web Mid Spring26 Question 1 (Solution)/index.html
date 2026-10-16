@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Cloud Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- ===== Sidebar ===== -->
+  <aside class="sidebar">
+    <div class="profile">
+      <div class="avatar">Rahim</div>
+    </div>
+    <nav class="side-nav">
+      <a href="#">My cloud</a>
+      <a href="#">Shared files</a>
+      <a href="#">Favorites</a>
+      <a href="#">Upload files</a>
+    </nav>
+    <nav class="side-nav bottom-nav">
+      <a href="#">Settings</a>
+      <a href="#">Log out</a>
+    </nav>
+  </aside>
+
+  <!-- ===== Main ===== -->
+  <main class="main">
+    <input type="text" class="search-bar" placeholder="Search">
+
+    <!-- Categories -->
+    <h2 class="section-title">Categories</h2>
+    <section class="category-grid">
+      <div class="category-card cat-pictures">
+        <p class="cat-name">Pictures</p>
+        <p class="cat-count">480 files</p>
+      </div>
+      <div class="category-card cat-documents">
+        <p class="cat-name">Documents</p>
+        <p class="cat-count">190 files</p>
+      </div>
+      <div class="category-card cat-videos">
+        <p class="cat-name">Videos</p>
+        <p class="cat-count">90 files</p>
+      </div>
+      <div class="category-card cat-audio">
+        <p class="cat-name">Audio</p>
+        <p class="cat-count">80 files</p>
+      </div>
+    </section>
+
+    <!-- Files -->
+    <h2 class="section-title">Files</h2>
+    <section class="files-grid">
+      <div class="file-card">
+        <p class="file-name">Work</p>
+        <p class="file-count">820 files</p>
+      </div>
+      <div class="file-card">
+        <p class="file-name">Personal</p>
+        <p class="file-count">115 files</p>
+      </div>
+      <div class="file-card">
+        <p class="file-name">School</p>
+        <p class="file-count">65 files</p>
+      </div>
+      <div class="file-card">
+        <p class="file-name">Archive</p>
+        <p class="file-count">21 files</p>
+      </div>
+      <div class="file-card add-card">
+        <span>+</span>
+      </div>
+    </section>
+
+    <!-- Bottom row -->
+    <section class="bottom-grid">
+
+      <div class="storage-card">
+        <div class="storage-head">
+          <h3>Your storage</h3>
+          <span class="storage-left">25% left</span>
+        </div>
+        <p class="storage-text">75 GB of 100 GB are used</p>
+        <div class="storage-track">
+          <div class="storage-fill" style="width:75%;"></div>
+        </div>
+      </div>
+
+      <div class="shared-card">
+        <h3>Your shared folders</h3>
+        <div class="shared-item shared-1">
+          <span>Keynote files</span>
+          <span class="shared-tag">Team</span>
+        </div>
+        <div class="shared-item shared-2">
+          <span>Vacation photos</span>
+          <span class="shared-tag">Files</span>
+        </div>
+        <div class="shared-item shared-3">
+          <span>Project report</span>
+          <span class="shared-tag">Docs</span>
+        </div>
+        <button class="add-more-btn">+ Add more</button>
+      </div>
+
+    </section>
+  </main>
+</div>
+
+</body>
+</html>
