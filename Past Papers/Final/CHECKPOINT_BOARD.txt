@@ -1,0 +1,20 @@
+CSE 4165 WEB PROGRAMMING - CHECKPOINT BOARD
+
+[ DONE ] 1. Question-making pattern and six families. Cross-checked against the eight supplied finals.
+[ DONE ] 2. Emphasis chart, 2023-2026. Totals: 70 JS + 100 PHP + 80 PHP/MySQL = 250 marks.
+[ DONE ] 3. Most-to-least repeated syntax for JS, PHP and SQL. Ranked by question coverage so counts remain auditable.
+[ DONE ] 4. Deduplicated syntax inventory and syntax/function/when-to-use chart.
+[ DONE ] 5. Core lessons, text diagrams, formulas and examples.
+[ DONE ] 6. Exam cheat sheet.
+[ DONE ] 7. All 25 past question groups solved in beginner lab style.
+[ DONE ] 8. Contradictions, bugs, source limits and assumption comments recorded.
+[ DONE ] 9. Expected-output/self-test table prepared; PHP arithmetic and JS sample behaviors smoke-tested.
+[ DONE ] 10. Semester/question folder structure and downloadable ZIP created.
+[ LIMIT ] End-to-end MySQL/MariaDB execution could not be completed because this runtime has no running database server. PHP syntax and JavaScript syntax checks passed.
+[ LIMIT ] Lab 8 ZIP was not among the supplied attachments; available lab examples were Lab 6, 7, 9, 10 and 11.
+
+DELIVERABLES
+- CSE4165_Web_Programming_Final_Master_Guide_2023-2026.txt: analysis, charts, lessons, cheat sheet, limitations and all code listings.
+- 00_Cheat_Sheet.txt: quick revision page.
+- CSE4165_Solutions_2023-2026.zip: solution folders by semester and question.
+- CSE4165_Web_Programming_Exam_Preparation_Pack.zip: combined guide, cheat sheet and solution folders.

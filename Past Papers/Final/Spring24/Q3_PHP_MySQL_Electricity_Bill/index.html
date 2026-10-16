@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Electricity Bill</title></head>
+<body>
+    <form method="post" action="bill.php">
+        Location:
+        <select name="location">
+            <option value="Dhaka">Dhaka</option>
+            <option value="Chittagong">Chittagong</option>
+        </select><br>
+        Area:
+        <input type="radio" name="area" value="Urban" checked> Urban
+        <input type="radio" name="area" value="Rural"> Rural<br>
+        Units consumed: <input type="number" name="units" min="0.01" step="any"><br>
+        <button name="btn">Calculate</button>
+    </form>
+</body>
+</html>

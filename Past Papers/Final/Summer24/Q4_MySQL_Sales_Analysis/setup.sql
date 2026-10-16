@@ -1,0 +1,16 @@
+CREATE DATABASE IF NOT EXISTS retail;
+USE retail;
+DROP TABLE IF EXISTS sales;
+CREATE TABLE sales (
+    sale_id INT PRIMARY KEY,
+    product_id INT NOT NULL,
+    sale_date DATE NOT NULL,
+    quantity_sold INT NOT NULL,
+    total_price DECIMAL(10,2) NOT NULL
+);
+INSERT INTO sales VALUES
+(1,107,'2024-01-01',5,2500.00),
+(2,103,'2024-01-02',3,900.00),
+(3,103,'2024-01-02',2,60.00),
+(4,107,'2024-01-03',4,80.00),
+(5,107,'2024-01-03',6,90.00);
