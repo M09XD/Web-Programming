@@ -1,6 +1,6 @@
-# Web Programming
-
 <div align="center">
+
+# Web Programming
 
 ![License](https://img.shields.io/badge/license-educational-lightgrey)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -219,7 +219,13 @@ This repository is built around university web programming coursework and study 
 ## Contact
 
 For questions, suggestions, or collaboration ideas, connect through the repository owner or open an issue on GitHub.
+Contact
 
+- GitHub profile: @M09XD
+
+- Repository: M09XD/Web-Programming
+
+If you find a broken path, incorrect solution, or unclear assumption, open an issue and include the relevant semester, question folder, and expected behavior.
 ---
 
 Built for learning, revision, and practical web programming growth.
